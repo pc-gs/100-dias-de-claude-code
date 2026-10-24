@@ -1,0 +1,24 @@
+name: Sugere a próxima lição
+description: Propõe um tema para uma lição futura / Suggest a future lesson
+title: "[Sugestão] "
+labels: ["sugestao"]
+body:
+  - type: input
+    id: tema
+    attributes:
+      label: Tema / Topic
+      placeholder: "ex.: hooks, subagentes, MCP..."
+    validations:
+      required: true
+  - type: textarea
+    id: porque
+    attributes:
+      label: Porquê? Que problema resolve? / Why? What problem does it solve?
+  - type: textarea
+    id: links
+    attributes:
+      label: Links grátis úteis (opcional) / Useful free links (optional)
+  - type: input
+    id: credito
+    attributes:
+      label: Como queres ser creditado? (opcional) / How should we credit you? (optional)
